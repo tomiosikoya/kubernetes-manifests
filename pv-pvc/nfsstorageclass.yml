@@ -90,7 +90,7 @@ spec:
             - name: PROVISIONER_NAME # do not change
               value: nfs-provisioner # SAME AS PROVISONER NAME VALUE IN STORAGECLASS
             - name: NFS_SERVER # do not change
-              value: 172.31.8.13 # Ip of the NFS SERVER
+              value: 172.31.31.23 # Ip of the NFS SERVER
             - name: NFS_PATH # do not change
               value: /mnt/share # path to nfs directory setup
       volumes:
