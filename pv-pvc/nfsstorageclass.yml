@@ -93,8 +93,8 @@ spec:
               value: 172.31.31.23 # Ip of the NFS SERVER
             - name: NFS_PATH # do not change
               value: /mnt/share # path to nfs directory setup
-      volumes:
-       - name: nfs-provisioner-v # same as volumemouts name
+         volumes:
+            - name: nfs-provisioner-v # same as volumemouts name
          nfs:
            server: 172.31.31.23
            path:  /mnt/share   
